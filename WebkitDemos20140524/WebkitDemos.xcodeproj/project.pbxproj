@@ -23,7 +23,7 @@
 		5B8C2A75193045E800DC5E32 /* GHUnitTestmain.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8C2A6E193045E800DC5E32 /* GHUnitTestmain.m */; };
 		5B8C2A76193045E800DC5E32 /* NBDataLoadController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5B8C2A71193045E800DC5E32 /* NBDataLoadController.mm */; };
 		5B8C2A77193045E800DC5E32 /* NBDataLoadControllerTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5B8C2A73193045E800DC5E32 /* NBDataLoadControllerTest.mm */; };
-		5B8C2A7B1930463A00DC5E32 /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B8C2A791930463A00DC5E32 /* GHUnitIOS.framework */; };
+		5B8C2A7E19304F8600DC5E32 /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B8C2A7D19304F8600DC5E32 /* GHUnitIOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,7 +59,7 @@
 		5B8C2A72193045E800DC5E32 /* NBDataLoadControllerTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBDataLoadControllerTest.h; sourceTree = "<group>"; };
 		5B8C2A73193045E800DC5E32 /* NBDataLoadControllerTest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = NBDataLoadControllerTest.mm; sourceTree = "<group>"; };
 		5B8C2A74193045E800DC5E32 /* NBGHUnitTestMacroDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBGHUnitTestMacroDefine.h; sourceTree = "<group>"; };
-		5B8C2A791930463A00DC5E32 /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GHUnitIOS.framework; sourceTree = "<group>"; };
+		5B8C2A7D19304F8600DC5E32 /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GHUnitIOS.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +68,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B5526C2193043FA000F855A /* CoreGraphics.framework in Frameworks */,
-				5B8C2A7B1930463A00DC5E32 /* GHUnitIOS.framework in Frameworks */,
+				5B8C2A7E19304F8600DC5E32 /* GHUnitIOS.framework in Frameworks */,
 				5B5526C4193043FA000F855A /* UIKit.framework in Frameworks */,
 				5B5526C0193043FA000F855A /* Foundation.framework in Frameworks */,
 			);
@@ -199,7 +199,7 @@
 		5B8C2A781930463A00DC5E32 /* Library */ = {
 			isa = PBXGroup;
 			children = (
-				5B8C2A791930463A00DC5E32 /* GHUnitIOS.framework */,
+				5B8C2A7D19304F8600DC5E32 /* GHUnitIOS.framework */,
 			);
 			path = Library;
 			sourceTree = "<group>";
@@ -426,6 +426,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/yangfs/Desktop/E/Src20140220/Study2012/20140524Github/GHUnitTestDemo20140524/WebkitDemos/Library,
+					/Users/yangfs/Desktop/E/Src20140220/Study2012/20140307/iPhoneStudy20130510/trunk/Src20131205/WebkitDemosTest20140524.git/WebkitDemos20140524/Library,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WebkitDemos/WebkitDemos-Prefix.pch";
@@ -446,6 +447,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/yangfs/Desktop/E/Src20140220/Study2012/20140524Github/GHUnitTestDemo20140524/WebkitDemos/Library,
+					/Users/yangfs/Desktop/E/Src20140220/Study2012/20140307/iPhoneStudy20130510/trunk/Src20131205/WebkitDemosTest20140524.git/WebkitDemos20140524/Library,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WebkitDemos/WebkitDemos-Prefix.pch";
